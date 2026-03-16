@@ -73,5 +73,6 @@ Screenshot 7
 
 
 🎥 Demo Video
-C:\Users\hp\OneDrive\Videos\Clipchamp\Video Project\Video Project.clipchamp
+
+<video controls src="../../Video Project.mp4" title="Title"></video>
 
