@@ -52,7 +52,7 @@ Screenshot 2
 Screenshot 3
 
 
-![third pic](third-1.png)
+![alt text](../../third.png)
 
 Screenshot 4
 
@@ -60,7 +60,7 @@ Screenshot 4
 
 Screenshot 5
 
-![fifth pic](fifth-1.png)
+![fifth pic](../../fifth.png)
 
 Screenshot 6
 
@@ -73,6 +73,7 @@ Screenshot 7
 
 
 🎥 Demo Video
+kindly check video file to understand better
 
 <video controls src="../../Video Project.mp4" title="Title"></video>
 
