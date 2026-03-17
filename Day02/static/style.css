@@ -1,0 +1,27 @@
+ body{
+       background-image:url("/static/crop-gif-5.gif");
+       background-size: cover;
+       margin-top:100px;
+       margin-bottom: 100px;
+       margin-left:50px;
+       margin-right:150px
+    }
+    input{
+        width: 70%;
+        padding:12px 20px;
+        margin:8px 0;
+        border-bottom: 4px solid black;
+        border-radius:10px;
+    }
+    h1{
+        color:white;
+    }
+    button{
+        background-color:rgb(204, 255, 0);
+        text-size-adjust:50px;
+        height:50px;
+        width:100px;
+        border-radius:20px;
+        margin:auto;
+        
+    }
