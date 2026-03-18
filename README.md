@@ -11,7 +11,7 @@
 - Data cleaning & structured output (JSON, CSV)
 - Rate limiting, user-agent rotation, error handling
 
-→ [Go to Day 01 folder ,there is a readme where you will see all information→](./day-01)
+→ [Go to Day 01 folder ,there is a readme where you will see all information→](./DAY-01)
 
 ## Day 02 – Crop Recommendation System
 
@@ -24,7 +24,7 @@
 - Model evaluation (accuracy, precision, recall, confusion matrix)
 - Practical agriculture use-case
 
-→ [Go to Day 02 folder ,there is a readme where you will see all information→](./day-02)
+→ [Go to Day 02 folder ,there is a readme where you will see all information→](./DAY-02)
 
 ## Technologies Used Across Projects
 
