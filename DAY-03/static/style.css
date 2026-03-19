@@ -1,0 +1,42 @@
+     body{
+       background-image:url("/static/giphy.gif");
+       background-size: cover;
+       margin-top:100px;
+       margin-bottom: 100px;
+       margin-left:50px;
+       margin-right:150px
+       
+    }
+    select{
+        height: 40px;
+        width:250px;
+        border-radius:10px 5px;
+
+    }
+    
+    label{
+        color:white;
+        font-size:20px
+    }
+    input{
+        width: 210px;
+        padding:12px 20px;
+        margin:8px 0;
+        border-bottom: 4px solid black;
+        border-radius:10px;
+    }
+    h1{
+        color:WHITE;
+    }
+    button{
+        background-color:rgb(169, 148, 251);
+        font-size:20px;
+        font-style:italic;
+        font-weight: 800;
+        color:rgb(37, 3, 81);
+        height:50px;
+        width:250px;
+        border-radius:10px 5px;
+        margin:auto;
+        
+    }

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML API</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+
+    </style>
+   
+</head>
+
+<body>
+    <div class="login">
+        <h1>TITANIC SURVIVAL PREDICTION</h1>
+        <div>
+        <form action="{{ url_for('predict') }}" method="post">
+        
+            <select name="Pclass" id="Pclass-b" required="required">
+                <option value="disabled selected" >Passenger Class</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <br>
+            <input type="text"  name="Age" placeholder="Age" required="required"/><br>
+            <input type="text" name="Fare" placeholder="Fare  (0 to 550)" required="required"/><br>
+            <button type="submit" class="btn btn">Predict</button>
+        </form>
+    </div>
+      <h1 id="pred">
+        {{prediction_text}}
+
+      </h1>
+
+
+    </div>
+    <audio id="bg-audio" style="display:none;">
+    <source src="{{ url_for('static', filename='titanic.mp3') }}" type="audio/mpeg">
+</audio>
+
+<script>
+    window.onload = function() {
+        let text = "{{ prediction_text }}";
+        if (text) {
+            document.getElementById("bg-audio").play();
+        }
+    }
+</script>
+
+    
+</body>
+</html>
