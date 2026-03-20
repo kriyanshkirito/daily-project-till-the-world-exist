@@ -30,12 +30,12 @@
 Regression model to predict cement strength
 Worked with real-world dataset
 Applied preprocessing and evaluation techniques
-→ [Go to Day 02 folder ,there is a readme where you will see all information→](./DAY-03)
+→ [Go to Day 03 folder ,there is a readme where you will see all information→](./DAY-03)
 
 🔹 Day 4 – Cement Strength Web App 🌐
 Converted ML model into a web application using Flask
 Users can input values and get predictions
-→ [Go to Day 02 folder ,there is a readme where you will see all information→](./DAY-04)
+→ [Go to Day 04 folder ,there is a readme where you will see all information→](./DAY-04)
 ## Technologies Used Across Projects
 
 - Python 3.8+
