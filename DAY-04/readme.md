@@ -2,11 +2,11 @@
 🏗️<h1> Concrete Compressive Strength Prediction</h1>
 This is a Machine Learning-powered Web Application built with Flask. The app predicts the compressive strength of concrete based on its composition (cement, water, ash, age, etc.).
 
-🚀 Features
+🚀 <h2>Features</h2>
  * Web Interface: A simple, user-friendly HTML form to input concrete ingredients.
  * ML Model: Uses a Linear Regression (or your specific model) trained on the UCI Concrete Strength dataset.
  * Real-time Prediction: Instant feedback on the concrete's strength in MegaPascals (MPa).
-🛠️ Tech Stack
+🛠️ <h2>Tech Stack</h2>
  * Backend: Python, Flask
  * Machine Learning: Scikit-Learn, NumPy, Pandas
  * Frontend: HTML5, CSS3
@@ -14,7 +14,7 @@ This is a Machine Learning-powered Web Application built with Flask. The app pre
 
 
 
-📂 Project Structure
+📂<h2> Project Structure</h2>
 ├── app.py              # Flask Application script
 ├── model.pkl           # Trained ML Model (Serialized)
 ├── transformer.pkl     # PowerTransformer/Scaler (Optional)
@@ -23,7 +23,7 @@ This is a Machine Learning-powered Web Application built with Flask. The app pre
 └── static/
     └── css/            # (Optional) Custom Styling
 
-📸 Project Screenshots
+📸 <h2>Project Screenshots</h2>
 
 Screenshot 1
 ![alt text](Screenshot/s1.png)
@@ -37,16 +37,16 @@ Screenshot 3
 
 
 
-⚙️ Installation & Setup
+⚙️ <h2>Installation & Setup</h2>
  * Clone the Repository
    git clone https://github.com/your-username/concrete-strength-prediction.git
 cd concrete-strength-prediction
 
  * Create a Virtual Environment (Recommended)
    python -m venv venv
-# Activate on Windows:
+ Activate on Windows:
 venv\Scripts\activate
-# Activate on Mac/Linux:
+ Activate on Mac/Linux:
 source venv/bin/activate
 
  * Install Dependencies
@@ -56,7 +56,7 @@ source venv/bin/activate
    python app.py
 
    Open your browser and go to http://127.0.0.1:5000/.
-#📊 How it Works
+📊<h2> How it Works<h2>
  * The user enters the quantities of ingredients (Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, and Age).
  * The data is sent to the Flask backend via a POST request.
  * If applicable, the data is scaled using the transformer.pkl.
