@@ -26,12 +26,15 @@ This is a Machine Learning-powered Web Application built with Flask. The app pre
 📸 <h2>Project Screenshots</h2>
 
 <h3>Screenshot 1</h3>
+
 ![alt text](Screenshot/s1.png)
 
 <h3>Screenshot 2</h3>
+
 ![alt text](Screenshot/s2.png)
 
 <h3>Screenshot 3</h3>
+
 ![alt text](Screenshot/s3.png)
 
 
