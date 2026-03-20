@@ -1,8 +1,8 @@
 
-#🏗️ Concrete Compressive Strength Prediction
+🏗️<h1> Concrete Compressive Strength Prediction</h1>
 This is a Machine Learning-powered Web Application built with Flask. The app predicts the compressive strength of concrete based on its composition (cement, water, ash, age, etc.).
 
-#🚀 Features
+🚀 Features
  * Web Interface: A simple, user-friendly HTML form to input concrete ingredients.
  * ML Model: Uses a Linear Regression (or your specific model) trained on the UCI Concrete Strength dataset.
  * Real-time Prediction: Instant feedback on the concrete's strength in MegaPascals (MPa).
@@ -14,7 +14,7 @@ This is a Machine Learning-powered Web Application built with Flask. The app pre
 
 
 
-#📂 Project Structure
+📂 Project Structure
 ├── app.py              # Flask Application script
 ├── model.pkl           # Trained ML Model (Serialized)
 ├── transformer.pkl     # PowerTransformer/Scaler (Optional)
@@ -23,7 +23,7 @@ This is a Machine Learning-powered Web Application built with Flask. The app pre
 └── static/
     └── css/            # (Optional) Custom Styling
 
-#📸 Project Screenshots
+📸 Project Screenshots
 
 Screenshot 1
 ![alt text](Screenshot/s1.png)
@@ -37,7 +37,7 @@ Screenshot 3
 
 
 
-#⚙️ Installation & Setup
+⚙️ Installation & Setup
  * Clone the Repository
    git clone https://github.com/your-username/concrete-strength-prediction.git
 cd concrete-strength-prediction
