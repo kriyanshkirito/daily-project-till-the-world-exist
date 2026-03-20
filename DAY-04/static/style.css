@@ -1,0 +1,47 @@
+body{
+    background-image: url();
+}
+
+h1{
+    text-align: center;
+    color:rgb(249, 249, 249);
+    text-shadow: 2px 2px 4px;  /*use to create shadow*/
+    
+}
+button{
+   display:block;
+   margin:0 auto;
+   padding: 20px;
+   border-radius: 20px;
+   margin-top: 30px;;
+}
+form{
+    padding: 20px;
+    font-size: 80px;
+   margin-left:80px;
+}
+
+/* video{
+   position: absolute;
+   top:0;
+   left:0;
+   min-height: 100%;
+   min-width:100%;
+   object-fit: cover;
+   z-index: -1; /*use to send video behind form*/
+   /* filter:blur(3px);
+   transform: scale();
+} */ */
+input{
+    border:solid;
+    border-radius: 5px;
+    width:300px;
+    height:30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+input::placeholder{
+    color:black;
+
+}

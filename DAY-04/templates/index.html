@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concrete Strength Prediction</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  
+<style>
+    body{
+       background-image: url(static/s.png);
+     }    
+
+h1{
+    text-align: center;
+    color:rgb(249, 249, 249);
+    text-shadow: 2px 2px 4px;  /*use to create shadow*/
+    
+}
+button{
+   display:block;
+   margin:0 auto;
+   padding: 20px;
+   border-radius: 20px;
+   margin-top: 30px;;
+}
+form{
+    padding: 20px;
+    font-size: 80px;
+   margin-left:80px;
+}
+
+
+input{
+    border:solid;
+    border-radius: 5px;
+    width:300px;
+    height:30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+input::placeholder{
+    color:black;
+
+}
+
+</style>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Concrete Strength Prediction Model</h1>
+        <form action="{{ url_for('predict') }}" method="post">
+            <input type="text" name="Cement" placeholder="Cement (kg/m3)" required="required"/>
+            <input type="text" name="Blast Furnace Slag" placeholder="Blast Furnace Slag (kg/m3)" required="required"/>
+            <input type="text" name="Fly Ash" placeholder="Fly Ash (kg/m3)" required="required"/>
+            
+            <input type="text" name="Water" placeholder="Water (kg/m3)" required="required"/>
+            <input type="text" name="Superplasticizer" placeholder="Superplasticizer (kg/m3)" required="required"/>
+            <input type="text" name="Coarse Aggregate" placeholder="Coarse Aggregate (kg/m3)" required="required"/>
+            <input type="text" name="Fine Aggregate" placeholder="Fine Aggregate (kg/m3)" required="required"/>
+            <input type="text" name="Age" placeholder="Age" required="required"/>
+            <br>
+            <button type="submit" class="btn btn">Predict</button>
+        </form>
+      <h1 id="pred">
+        {{prediction_text}}
+
+      </h1>
+
+
+    </div>
+    <video autoplay muted loop playsinline poster>
+        <source src="strength.mp4" type="video/mp4">
+    
+    </video>
+    
+</body>
+</html>
