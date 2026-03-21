@@ -18,7 +18,7 @@ A machine learning-powered web application that predicts whether a user will pur
 <h2>Screenshot<h2>
 
  <h3>Screenshot 1<h3>
-
+here input is male ,87,87000
 ![alt text](Sceenshot/s1.png)
 
  <h3>Screenshot 2<h3>
