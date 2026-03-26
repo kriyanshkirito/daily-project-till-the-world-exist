@@ -1,8 +1,10 @@
-<h1>🎓 Student Placement Prediction System <h>
+<h1>🎓 Student Placement Prediction System <h1>
+
 An end-to-end Machine Learning web application that predicts whether a student will be placed based on key features like CGPA and IQ.
 Built using Flask, this project transforms a trained ML model into a real-time interactive web app.
 
-🚀 Features
+
+🚀<h2> Features <h2>
 🔍 Predict placement chances instantly
 
 🌐 Flask-powered backend
@@ -13,12 +15,28 @@ Built using Flask, this project transforms a trained ML model into a real-time i
 
 ⚡ Fast inference with minimal input
 
-📸 Project Preview
+📸<h2> Project Preview <h2>
 🖥️ Web Interface
 Add your screenshot here (form with CGPA & IQ input)
 
 📊 Prediction Output
-Add screenshot showing prediction result
+ screenshot showing prediction result
+
+![alt text](screenshot/s1.png)
+
+![alt text](screenshot/s2.png)
+
+
+![alt text](screenshot/s3.png)
+
+
+![alt text](screenshot/s4.png)
+
+
+![alt text](screenshot/s5.png)
+
+
+
 
 🤖 Machine Learning Workflow
 🔹 Data Processing
@@ -36,13 +54,13 @@ Model loaded in Flask backend
 
 Takes user input → returns prediction
 
-🛠️ Tech Stack
+🛠️ <h2>Tech Stack<h2>
 Category	Technology
 Backend	Flask
 ML	Scikit-Learn, NumPy, Pandas
 Frontend	HTML, CSS
 Model File	Pickle (pipe.pkl)
-📂 Project Structure
+📂 <h2>Project Structure<h2>
 ├── static/                # CSS, JS, assets
 ├── templates/             # HTML files
 │   └── index.html
@@ -57,7 +75,7 @@ Python 3.x
 
 pip
 
-▶️ Steps to Run
+▶️ <h2>Steps to Run<h2>
 # Clone the repository
 git clone https://github.com/your-username/placement-prediction.git
 
