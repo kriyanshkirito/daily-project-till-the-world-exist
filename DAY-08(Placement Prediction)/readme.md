@@ -124,12 +124,5 @@ If you like this project:
 
 ⭐ Star the repo
 🍴 Fork it
-📢 Share it
+<h1>📢 Share it</h1>
 
-If you want, I can next:
-
-Fix your requirement.txt (I already saw mistakes in screenshot 👀)
-
-Add deployment (Render) steps
-
-Or make this README next-level portfolio style (with GIFs + badges + live demo link) 🚀
