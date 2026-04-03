@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Prediction</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  
+<style>
+ 
+</style>
+</head>
+
+<body>
+    <div class="login">
+        <h1 id="title"></h1>
+        <div>
+        <form action="{{ url_for('predict') }}" method="post">
+            
+            <input type="text" name="Cement" placeholder="City Development Index" required="required"/>
+            <select name="enrollment" required>
+                <option value="" hidden>Course</option>
+                <option value="no_enrollment"> No Enrollement</option>
+                <option value="Full time course"> Full Time Course</option>
+                <option value="Part time course">Part Time Course </option>
+            </select>
+            <select name="education" required>
+                <option value="" hidden>Education</option>
+                <option value="Graduate"> Graduate</option>
+                <option value="Masters"> Masters</option>
+                <option value="Phd">Phd</option>
+                <option value="Primary School">Primary School</option>
+                
+            </select>
+            <input type="text" name="experience" placeholder="Experience" required="required"/>
+            <input type="text" name="training_hours" placeholder="Training Hours" required="required"/>
+            
+            
+       
+            <br>
+            <button type="submit" class="btn btn">Predict</button>
+        </form>
+        </div>
+      <h1 id="pred">
+        {{prediction_text}}
+    
+      </h1>
+
+
+    </div>
+  <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    
+</body>
+</html>
